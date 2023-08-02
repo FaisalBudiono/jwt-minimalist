@@ -15,5 +15,12 @@
     "require": {
         "php": ">=8.2",
         "laravel/framework": "^10.17"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FaisalBudiono\\JWTMinimalist\\Providers\\ServiceProvider"
+            ]
+        }
     }
 }
