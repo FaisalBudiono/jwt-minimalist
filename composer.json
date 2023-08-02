@@ -1,0 +1,19 @@
+{
+    "name": "faisalbudiono/jwt-minimalist",
+    "description": "Laravel JWT implementation with refresh token rotation",
+    "autoload": {
+        "psr-4": {
+            "FaisalBudiono\\JWTMinimalist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FaisalBudiono",
+            "email": "ucul.project@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "laravel/framework": "^10.17"
+    }
+}
